@@ -51,24 +51,11 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
     map-underscore-to-camel-case: true
 
-logging:
-  file:
-    name: /data/aideepin/logs
-
 adi:
-  host: aideepin.com
+  host: almost.org.cn
   frontend-url: http://www.${adi.host}
   backend-url: http://www.${adi.host}/api
   proxy:
     enable: false
     host: 127.0.0.1
     http-port: 1087
-
-local:
-  files: /data/aideepin/files/
-  images: /data/aideepin/images/
-  watermark-images: /data/aideepin/mark-images/
-  thumbnails: /data/aideepin/thumbnails/
-  watermark-thumbnails: /data/aideepin/watermark-thumbnails/
-  tmp-images: /data/aideepin/tmp_images/
-  chat-memory: /data/aideepin/chat_memory/
